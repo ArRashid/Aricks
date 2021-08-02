@@ -14,4 +14,3 @@ C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.MainMenu.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.AddAccountVouchar.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.BuyVouchar.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\database.accdb
-C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.AssemblyReference.cache

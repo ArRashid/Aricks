@@ -30,6 +30,12 @@ namespace Aricks
         private void InitializeComponent()
         {
             this.ac_vou_panel = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.cb_cutomer = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cb_vendor = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tb_email = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -41,12 +47,6 @@ namespace Aricks
             this.lable1 = new System.Windows.Forms.Label();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.ac_vou_panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,9 +58,9 @@ namespace Aricks
             this.ac_vou_panel.AutoScroll = true;
             this.ac_vou_panel.BackColor = System.Drawing.SystemColors.Info;
             this.ac_vou_panel.Controls.Add(this.dateTimePicker1);
-            this.ac_vou_panel.Controls.Add(this.comboBox2);
+            this.ac_vou_panel.Controls.Add(this.cb_cutomer);
             this.ac_vou_panel.Controls.Add(this.label5);
-            this.ac_vou_panel.Controls.Add(this.comboBox1);
+            this.ac_vou_panel.Controls.Add(this.cb_vendor);
             this.ac_vou_panel.Controls.Add(this.textBox1);
             this.ac_vou_panel.Controls.Add(this.label2);
             this.ac_vou_panel.Controls.Add(this.label1);
@@ -77,6 +77,57 @@ namespace Aricks
             this.ac_vou_panel.Name = "ac_vou_panel";
             this.ac_vou_panel.Size = new System.Drawing.Size(776, 361);
             this.ac_vou_panel.TabIndex = 2;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(354, 75);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
+            this.dateTimePicker1.TabIndex = 15;
+            // 
+            // cb_cutomer
+            // 
+            this.cb_cutomer.FormattingEnabled = true;
+            this.cb_cutomer.Location = new System.Drawing.Point(144, 155);
+            this.cb_cutomer.Name = "cb_cutomer";
+            this.cb_cutomer.Size = new System.Drawing.Size(557, 21);
+            this.cb_cutomer.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(73, 156);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 17);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "To A/c :";
+            // 
+            // cb_vendor
+            // 
+            this.cb_vendor.FormattingEnabled = true;
+            this.cb_vendor.Location = new System.Drawing.Point(145, 114);
+            this.cb_vendor.Name = "cb_vendor";
+            this.cb_vendor.Size = new System.Drawing.Size(557, 21);
+            this.cb_vendor.TabIndex = 12;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(560, 74);
+            this.textBox1.MaxLength = 10;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(142, 20);
+            this.textBox1.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(482, 74);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 17);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Challan :";
             // 
             // label1
             // 
@@ -180,57 +231,6 @@ namespace Aricks
             this.btn_save.Text = "Save";
             this.btn_save.UseVisualStyleBackColor = true;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(560, 74);
-            this.textBox1.MaxLength = 10;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(142, 20);
-            this.textBox1.TabIndex = 10;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(482, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 17);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Challan :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(145, 114);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(557, 21);
-            this.comboBox1.TabIndex = 12;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(144, 155);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(557, 21);
-            this.comboBox2.TabIndex = 14;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(73, 156);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 17);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "To A/c :";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(354, 75);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
-            this.dateTimePicker1.TabIndex = 15;
-            // 
             // BuyVouchar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -263,9 +263,9 @@ namespace Aricks
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_vendor;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cb_cutomer;
         private System.Windows.Forms.Label label5;
     }
 }

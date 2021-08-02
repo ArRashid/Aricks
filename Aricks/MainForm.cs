@@ -102,6 +102,8 @@ namespace Aricks
 
         public void btn_main_Click(object sender, EventArgs e)
         {
+           
+
             if (indexofuc("MainMenu") > 0)
             {
                 MainMenu.Instance.Dock = DockStyle.Fill;
@@ -116,6 +118,7 @@ namespace Aricks
                 MainMenu.Instance.BringToFront();
                
             }
+            
         }
     }
 }
