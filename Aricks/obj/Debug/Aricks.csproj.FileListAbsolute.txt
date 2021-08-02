@@ -1,7 +1,6 @@
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.exe.config
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.exe
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.pdb
-C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.AssemblyReference.cache
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.Properties.Resources.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.GenerateResource.cache
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.CoreCompileInputs.cache
@@ -14,3 +13,5 @@ C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.BuyMenu.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.MainMenu.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.AddAccountVouchar.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.BuyVouchar.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\database.accdb
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.AssemblyReference.cache

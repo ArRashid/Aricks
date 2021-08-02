@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddAccountVouchar.cs">
+    <Compile Include="Vouchars\AddAccountVouchar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddAccountVouchar.Designer.cs">
+    <Compile Include="Vouchars\AddAccountVouchar.Designer.cs">
       <DependentUpon>AddAccountVouchar.cs</DependentUpon>
     </Compile>
     <Compile Include="BuyVouchar.cs">
@@ -57,6 +58,11 @@
     </Compile>
     <Compile Include="BuyVouchar.Designer.cs">
       <DependentUpon>BuyVouchar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="databaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="UserControls\AccountMenu.cs">
       <SubType>UserControl</SubType>
@@ -90,7 +96,7 @@
     <Compile Include="UserControls\SellsMenu.Designer.cs">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddAccountVouchar.resx">
+    <EmbeddedResource Include="Vouchars\AddAccountVouchar.resx">
       <DependentUpon>AddAccountVouchar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BuyVouchar.resx">
@@ -121,6 +127,17 @@
     <EmbeddedResource Include="UserControls\SellsMenu.resx">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="databaseDataSet.xsc">
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="databaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>databaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="databaseDataSet.xss">
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -169,6 +186,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btn_3_sky_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="database.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -44,6 +44,7 @@ namespace Aricks
            
             AddAccountVouchar f = new AddAccountVouchar();
             f.Show();
+           
         }
     }
 }
