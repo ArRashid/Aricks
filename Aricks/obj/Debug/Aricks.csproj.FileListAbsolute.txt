@@ -10,3 +10,7 @@ C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.pdb
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.MainForm.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.AccountMenu.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.SellsMenu.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.BuyMenu.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.MainMenu.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.AddAccountVouchar.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.BuyVouchar.resources

@@ -46,16 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountMenu.cs">
+    <Compile Include="AddAccountVouchar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAccountVouchar.Designer.cs">
+      <DependentUpon>AddAccountVouchar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyVouchar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyVouchar.Designer.cs">
+      <DependentUpon>BuyVouchar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AccountMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AccountMenu.Designer.cs">
+    <Compile Include="UserControls\AccountMenu.Designer.cs">
       <DependentUpon>AccountMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="BuyMenu.cs">
+    <Compile Include="UserControls\BuyMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BuyMenu.Designer.cs">
+    <Compile Include="UserControls\BuyMenu.Designer.cs">
       <DependentUpon>BuyMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
@@ -64,19 +76,37 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SellsMenu.cs">
+    <Compile Include="UserControls\MainMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SellsMenu.Designer.cs">
+    <Compile Include="UserControls\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\SellsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SellsMenu.Designer.cs">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AccountMenu.resx">
+    <EmbeddedResource Include="AddAccountVouchar.resx">
+      <DependentUpon>AddAccountVouchar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyVouchar.resx">
+      <DependentUpon>BuyVouchar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AccountMenu.resx">
       <DependentUpon>AccountMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BuyMenu.resx">
+      <DependentUpon>BuyMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,8 +116,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SellsMenu.resx">
+    <EmbeddedResource Include="UserControls\SellsMenu.resx">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -102,6 +133,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-resource-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brick fieild.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-income-categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications-engineering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting-participant-no-response.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-group-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-group-properties.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_style_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_1_red_selver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_2_white_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_3_sky_blue.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
