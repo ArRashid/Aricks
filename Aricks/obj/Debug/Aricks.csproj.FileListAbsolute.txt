@@ -1,11 +1,12 @@
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.exe.config
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.exe
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\bin\Debug\Aricks.pdb
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.AssemblyReference.cache
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.Properties.Resources.resources
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.GenerateResource.cache
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.CoreCompileInputs.cache
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.exe
 C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.pdb
-C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.Form1.resources
-C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.UserControl1.resources
-C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.csproj.AssemblyReference.cache
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.MainForm.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.AccountMenu.resources
+C:\Users\Ar Rashid\Desktop\Aricks\Aricks\obj\Debug\Aricks.SellsMenu.resources

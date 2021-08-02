@@ -10,28 +10,28 @@ using System.Windows.Forms;
 
 namespace Aricks
 {
-    public partial class UserControl1 : UserControl
+    public partial class SellsMenu : UserControl
     {
-        private static UserControl1 _instance;
-        public static UserControl1 Instance
+        private static SellsMenu _instance;
+        public static SellsMenu Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new UserControl1();
-                } return _instance;
+                    _instance = new SellsMenu();
+                }
+                return _instance;
             }
         }
-
-        public UserControl1()
+        public SellsMenu()
         {
             InitializeComponent();
         }
 
-        private void btn_addac_Click(object sender, EventArgs e)
+        private void btn_Quite_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(" helllo ar");
+            AccountMenu.Instance.Hide();
         }
     }
 }
