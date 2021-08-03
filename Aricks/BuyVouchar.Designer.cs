@@ -30,6 +30,8 @@ namespace Aricks
         private void InitializeComponent()
         {
             this.ac_vou_panel = new System.Windows.Forms.Panel();
+            this.btn_del = new System.Windows.Forms.Button();
+            this.btn_add = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.cb_cutomer = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,6 +49,12 @@ namespace Aricks
             this.lable1 = new System.Windows.Forms.Label();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
+            this.product6 = new Aricks.Product();
+            this.product5 = new Aricks.Product();
+            this.product4 = new Aricks.Product();
+            this.product3 = new Aricks.Product();
+            this.product2 = new Aricks.Product();
+            this.product1 = new Aricks.Product();
             this.ac_vou_panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +65,14 @@ namespace Aricks
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ac_vou_panel.AutoScroll = true;
             this.ac_vou_panel.BackColor = System.Drawing.SystemColors.Info;
+            this.ac_vou_panel.Controls.Add(this.product6);
+            this.ac_vou_panel.Controls.Add(this.product5);
+            this.ac_vou_panel.Controls.Add(this.product4);
+            this.ac_vou_panel.Controls.Add(this.product3);
+            this.ac_vou_panel.Controls.Add(this.product2);
+            this.ac_vou_panel.Controls.Add(this.btn_del);
+            this.ac_vou_panel.Controls.Add(this.btn_add);
+            this.ac_vou_panel.Controls.Add(this.product1);
             this.ac_vou_panel.Controls.Add(this.dateTimePicker1);
             this.ac_vou_panel.Controls.Add(this.cb_cutomer);
             this.ac_vou_panel.Controls.Add(this.label5);
@@ -78,8 +94,29 @@ namespace Aricks
             this.ac_vou_panel.Size = new System.Drawing.Size(776, 361);
             this.ac_vou_panel.TabIndex = 2;
             // 
+            // btn_del
+            // 
+            this.btn_del.Location = new System.Drawing.Point(712, 248);
+            this.btn_del.Name = "btn_del";
+            this.btn_del.Size = new System.Drawing.Size(30, 23);
+            this.btn_del.TabIndex = 17;
+            this.btn_del.Text = "del";
+            this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
+            // 
+            // btn_add
+            // 
+            this.btn_add.Location = new System.Drawing.Point(25, 230);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(30, 23);
+            this.btn_add.TabIndex = 17;
+            this.btn_add.Text = "add";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(354, 75);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
@@ -142,7 +179,7 @@ namespace Aricks
             // 
             // tb_email
             // 
-            this.tb_email.Location = new System.Drawing.Point(503, 196);
+            this.tb_email.Location = new System.Drawing.Point(503, 192);
             this.tb_email.Name = "tb_email";
             this.tb_email.Size = new System.Drawing.Size(203, 20);
             this.tb_email.TabIndex = 6;
@@ -151,7 +188,7 @@ namespace Aricks
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(375, 196);
+            this.label6.Location = new System.Drawing.Point(375, 192);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 17);
             this.label6.TabIndex = 2;
@@ -159,7 +196,7 @@ namespace Aricks
             // 
             // tb_mobile
             // 
-            this.tb_mobile.Location = new System.Drawing.Point(144, 196);
+            this.tb_mobile.Location = new System.Drawing.Point(144, 192);
             this.tb_mobile.MaxLength = 10;
             this.tb_mobile.Name = "tb_mobile";
             this.tb_mobile.Size = new System.Drawing.Size(203, 20);
@@ -169,7 +206,7 @@ namespace Aricks
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(56, 197);
+            this.label7.Location = new System.Drawing.Point(56, 193);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 17);
             this.label7.TabIndex = 3;
@@ -230,6 +267,85 @@ namespace Aricks
             this.btn_save.TabIndex = 4;
             this.btn_save.Text = "Save";
             this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
+            // product6
+            // 
+            this.product6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product6.Item = "";
+            this.product6.Location = new System.Drawing.Point(61, 326);
+            this.product6.Name = "product6";
+            this.product6.Price = "";
+            this.product6.Quantity = "";
+            this.product6.Rate = "";
+            this.product6.Seno = "6";
+            this.product6.Size = new System.Drawing.Size(645, 22);
+            this.product6.TabIndex = 22;
+            // 
+            // product5
+            // 
+            this.product5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product5.Item = "";
+            this.product5.Location = new System.Drawing.Point(61, 307);
+            this.product5.Name = "product5";
+            this.product5.Price = "";
+            this.product5.Quantity = "";
+            this.product5.Rate = "";
+            this.product5.Seno = "5";
+            this.product5.Size = new System.Drawing.Size(645, 22);
+            this.product5.TabIndex = 21;
+            // 
+            // product4
+            // 
+            this.product4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product4.Item = "";
+            this.product4.Location = new System.Drawing.Point(61, 288);
+            this.product4.Name = "product4";
+            this.product4.Price = "";
+            this.product4.Quantity = "";
+            this.product4.Rate = "";
+            this.product4.Seno = "4";
+            this.product4.Size = new System.Drawing.Size(645, 22);
+            this.product4.TabIndex = 20;
+            // 
+            // product3
+            // 
+            this.product3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product3.Item = "";
+            this.product3.Location = new System.Drawing.Point(61, 269);
+            this.product3.Name = "product3";
+            this.product3.Price = "";
+            this.product3.Quantity = "";
+            this.product3.Rate = "";
+            this.product3.Seno = "3";
+            this.product3.Size = new System.Drawing.Size(645, 22);
+            this.product3.TabIndex = 19;
+            // 
+            // product2
+            // 
+            this.product2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product2.Item = "";
+            this.product2.Location = new System.Drawing.Point(61, 249);
+            this.product2.Name = "product2";
+            this.product2.Price = "";
+            this.product2.Quantity = "";
+            this.product2.Rate = "";
+            this.product2.Seno = "2";
+            this.product2.Size = new System.Drawing.Size(645, 22);
+            this.product2.TabIndex = 18;
+            // 
+            // product1
+            // 
+            this.product1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.product1.Item = "";
+            this.product1.Location = new System.Drawing.Point(61, 230);
+            this.product1.Name = "product1";
+            this.product1.Price = "";
+            this.product1.Quantity = "";
+            this.product1.Rate = "";
+            this.product1.Seno = "1";
+            this.product1.Size = new System.Drawing.Size(645, 22);
+            this.product1.TabIndex = 16;
             // 
             // BuyVouchar
             // 
@@ -267,5 +383,13 @@ namespace Aricks
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox cb_cutomer;
         private System.Windows.Forms.Label label5;
+        private Product product6;
+        private Product product5;
+        private Product product4;
+        private Product product3;
+        private Product product2;
+        private System.Windows.Forms.Button btn_add;
+        private Product product1;
+        private System.Windows.Forms.Button btn_del;
     }
 }

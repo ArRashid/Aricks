@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vouchars\AddAccountVouchar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="UserControls\SellsMenu.Designer.cs">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vouchars\AddAccountVouchar.resx">
       <DependentUpon>AddAccountVouchar.cs</DependentUpon>
     </EmbeddedResource>

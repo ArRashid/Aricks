@@ -47,9 +47,7 @@ namespace Aricks
             this.label6 = new System.Windows.Forms.Label();
             this.tb_mobile = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.tb_last_name = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tb_frist_name = new System.Windows.Forms.TextBox();
+            this.tb_full_name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_opening_balance = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -83,9 +81,7 @@ namespace Aricks
             this.ac_vou_panel.Controls.Add(this.label6);
             this.ac_vou_panel.Controls.Add(this.tb_mobile);
             this.ac_vou_panel.Controls.Add(this.label7);
-            this.ac_vou_panel.Controls.Add(this.tb_last_name);
-            this.ac_vou_panel.Controls.Add(this.label5);
-            this.ac_vou_panel.Controls.Add(this.tb_frist_name);
+            this.ac_vou_panel.Controls.Add(this.tb_full_name);
             this.ac_vou_panel.Controls.Add(this.label3);
             this.ac_vou_panel.Controls.Add(this.tb_opening_balance);
             this.ac_vou_panel.Controls.Add(this.label4);
@@ -226,43 +222,24 @@ namespace Aricks
             this.label7.TabIndex = 3;
             this.label7.Text = "Mobie :";
             // 
-            // tb_last_name
+            // tb_full_name
             // 
-            this.tb_last_name.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.tb_last_name.Location = new System.Drawing.Point(504, 113);
-            this.tb_last_name.MaxLength = 100;
-            this.tb_last_name.Name = "tb_last_name";
-            this.tb_last_name.Size = new System.Drawing.Size(203, 20);
-            this.tb_last_name.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(403, 113);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 17);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Last Name :";
-            // 
-            // tb_frist_name
-            // 
-            this.tb_frist_name.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.tb_frist_name.Location = new System.Drawing.Point(145, 114);
-            this.tb_frist_name.MaxLength = 100;
-            this.tb_frist_name.Name = "tb_frist_name";
-            this.tb_frist_name.Size = new System.Drawing.Size(203, 20);
-            this.tb_frist_name.TabIndex = 2;
+            this.tb_full_name.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tb_full_name.Location = new System.Drawing.Point(145, 114);
+            this.tb_full_name.MaxLength = 100;
+            this.tb_full_name.Name = "tb_full_name";
+            this.tb_full_name.Size = new System.Drawing.Size(562, 20);
+            this.tb_full_name.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(43, 114);
+            this.label3.Location = new System.Drawing.Point(49, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.Size = new System.Drawing.Size(90, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Frist Name :";
+            this.label3.Text = "Full Name :";
             // 
             // tb_opening_balance
             // 
@@ -354,9 +331,7 @@ namespace Aricks
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tb_mobile;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox tb_last_name;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox tb_frist_name;
+        private System.Windows.Forms.TextBox tb_full_name;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tb_opening_balance;
         private System.Windows.Forms.Label label4;

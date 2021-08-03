@@ -34,5 +34,11 @@ namespace Aricks
             BuyMenu.Instance.SendToBack();
             BuyMenu.Instance.Hide();
         }
+
+        private void btn_buy_add_Click(object sender, EventArgs e)
+        {
+            BuyVouchar f = new BuyVouchar();
+            f.Show();
+        }
     }
 }

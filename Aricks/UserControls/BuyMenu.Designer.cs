@@ -32,6 +32,7 @@ namespace Aricks
             this.titel_panel_buy = new System.Windows.Forms.Panel();
             this.btn_quite = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
+            this.btn_buy_add = new System.Windows.Forms.Button();
             this.titel_panel_buy.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,11 +76,22 @@ namespace Aricks
             this.title.Text = "Manage Vendors";
             this.title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btn_buy_add
+            // 
+            this.btn_buy_add.Location = new System.Drawing.Point(291, 141);
+            this.btn_buy_add.Name = "btn_buy_add";
+            this.btn_buy_add.Size = new System.Drawing.Size(137, 23);
+            this.btn_buy_add.TabIndex = 7;
+            this.btn_buy_add.Text = "ADD NEW BUY";
+            this.btn_buy_add.UseVisualStyleBackColor = true;
+            this.btn_buy_add.Click += new System.EventHandler(this.btn_buy_add_Click);
+            // 
             // BuyMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.Controls.Add(this.btn_buy_add);
             this.Controls.Add(this.titel_panel_buy);
             this.Name = "BuyMenu";
             this.Size = new System.Drawing.Size(663, 364);
@@ -94,5 +106,6 @@ namespace Aricks
         private System.Windows.Forms.Panel titel_panel_buy;
         private System.Windows.Forms.Button btn_quite;
         private System.Windows.Forms.Label title;
+        private System.Windows.Forms.Button btn_buy_add;
     }
 }
