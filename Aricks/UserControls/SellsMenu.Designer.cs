@@ -30,6 +30,7 @@ namespace Aricks
         private void InitializeComponent()
         {
             this.btn_Quite = new System.Windows.Forms.Button();
+            this.btn_sellsnew = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Quite
@@ -44,11 +45,22 @@ namespace Aricks
             this.btn_Quite.UseVisualStyleBackColor = false;
             this.btn_Quite.Click += new System.EventHandler(this.btn_Quite_Click);
             // 
+            // btn_sellsnew
+            // 
+            this.btn_sellsnew.Location = new System.Drawing.Point(200, 109);
+            this.btn_sellsnew.Name = "btn_sellsnew";
+            this.btn_sellsnew.Size = new System.Drawing.Size(75, 23);
+            this.btn_sellsnew.TabIndex = 2;
+            this.btn_sellsnew.Text = "SELLS";
+            this.btn_sellsnew.UseVisualStyleBackColor = true;
+            this.btn_sellsnew.Click += new System.EventHandler(this.btn_sellsnew_Click);
+            // 
             // SellsMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
+            this.Controls.Add(this.btn_sellsnew);
             this.Controls.Add(this.btn_Quite);
             this.Name = "SellsMenu";
             this.Size = new System.Drawing.Size(734, 478);
@@ -59,5 +71,6 @@ namespace Aricks
         #endregion
 
         private System.Windows.Forms.Button btn_Quite;
+        private System.Windows.Forms.Button btn_sellsnew;
     }
 }

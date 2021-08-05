@@ -113,7 +113,7 @@ namespace Aricks
                 while (reader.Read()) { int a = Convert.ToInt32(reader[0].ToString()); datatable.Add(a); }
                 tb_ac_id.Text = (datatable.Max() + 1).ToString();
             }
-            catch { MessageBox.Show("Threwas an error in auto ID"); }
+            catch { tb_ac_id.Text = "1"; MessageBox.Show("Threwas an error in auto ID"); }
             finally { ar.gcon.Close(); }
         }
 

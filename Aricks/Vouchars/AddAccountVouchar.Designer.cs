@@ -224,7 +224,6 @@ namespace Aricks
             // 
             // tb_full_name
             // 
-            this.tb_full_name.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tb_full_name.Location = new System.Drawing.Point(145, 114);
             this.tb_full_name.MaxLength = 100;
             this.tb_full_name.Name = "tb_full_name";

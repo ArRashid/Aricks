@@ -133,6 +133,26 @@ namespace Aricks.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_delete {
+            get {
+                object obj = ResourceManager.GetObject("edit-delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap list_add {
+            get {
+                object obj = ResourceManager.GetObject("list-add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap list_resource_add {
             get {
                 object obj = ResourceManager.GetObject("list-resource-add", resourceCulture);
@@ -146,6 +166,16 @@ namespace Aricks.Properties {
         internal static System.Drawing.Bitmap meeting_participant_no_response {
             get {
                 object obj = ResourceManager.GetObject("meeting-participant-no-response", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap process_stop {
+            get {
+                object obj = ResourceManager.GetObject("process-stop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

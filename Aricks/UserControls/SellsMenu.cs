@@ -33,5 +33,11 @@ namespace Aricks
         {
             AccountMenu.Instance.Hide();
         }
+
+        private void btn_sellsnew_Click(object sender, EventArgs e)
+        {
+            SellsVouchar f = new SellsVouchar();
+            f.Show();
+        }
     }
 }
