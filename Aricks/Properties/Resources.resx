@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn_3_sky_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_3_sky_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="list-add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_style_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_style_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,20 +130,23 @@
   <data name="user-group-properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-group-properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_2_white_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_2_white_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dialog-close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dialog-close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="brick fieild" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brick fieild.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_3_sky_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_3_sky_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit-delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_2_white_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_2_white_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="meeting-participant-no-response" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\meeting-participant-no-response.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="list-add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\list-add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="process-stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\process-stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="list-resource-add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\list-resource-add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +154,8 @@
   <data name="applications-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\applications-engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="process-stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\process-stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dialog-close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dialog-close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_1_red_selver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_1_red_selver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,7 +163,22 @@
   <data name="user-group-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-group-new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit-delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit-delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="archive-extract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archive-extract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail-mark-task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail-mark-task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail-queue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail-queue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail-replied" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail-replied.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail-signature-unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail-signature-unknown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail-signed-part" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail-signed-part.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

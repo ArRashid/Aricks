@@ -73,6 +73,16 @@ namespace Aricks.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap archive_extract {
+            get {
+                object obj = ResourceManager.GetObject("archive-extract", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brick_fieild {
             get {
                 object obj = ResourceManager.GetObject("brick fieild", resourceCulture);
@@ -156,6 +166,56 @@ namespace Aricks.Properties {
         internal static System.Drawing.Bitmap list_resource_add {
             get {
                 object obj = ResourceManager.GetObject("list-resource-add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mail_mark_task {
+            get {
+                object obj = ResourceManager.GetObject("mail-mark-task", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mail_queue {
+            get {
+                object obj = ResourceManager.GetObject("mail-queue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mail_replied {
+            get {
+                object obj = ResourceManager.GetObject("mail-replied", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mail_signature_unknown {
+            get {
+                object obj = ResourceManager.GetObject("mail-signature-unknown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mail_signed_part {
+            get {
+                object obj = ResourceManager.GetObject("mail-signed-part", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

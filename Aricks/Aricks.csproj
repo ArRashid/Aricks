@@ -33,19 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.v12.12.0.0.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
@@ -69,17 +56,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="SellsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellsReport.Designer.cs">
+      <DependentUpon>SellsReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UserControls\ReportMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ReportMenu.Designer.cs">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Product.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\Product.Designer.cs">
       <DependentUpon>Product.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vouchars\AddAccountVouchar.cs">
+    <Compile Include="Forms\AddAccountVouchar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vouchars\AddAccountVouchar.Designer.cs">
+    <Compile Include="Forms\AddAccountVouchar.Designer.cs">
       <DependentUpon>AddAccountVouchar.cs</DependentUpon>
     </Compile>
     <Compile Include="databaseDataSet.Designer.cs">
@@ -119,23 +118,28 @@
     <Compile Include="UserControls\SellsMenu.Designer.cs">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vouchars\SellsVouchar.cs">
+    <Compile Include="Forms\SellsVouchar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vouchars\SellsVouchar.Designer.cs">
+    <Compile Include="Forms\SellsVouchar.Designer.cs">
       <DependentUpon>SellsVouchar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vouchars\BuyVouchar.cs">
+    <Compile Include="Forms\BuyVouchar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vouchars\BuyVouchar.Designer.cs">
+    <Compile Include="Forms\BuyVouchar.Designer.cs">
       <DependentUpon>BuyVouchar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Repor1rdlc.rdlc" />
+    <EmbeddedResource Include="SellsReport.resx">
+      <DependentUpon>SellsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ReportMenu.resx">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Product.resx">
       <DependentUpon>Product.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vouchars\AddAccountVouchar.resx">
+    <EmbeddedResource Include="Forms\AddAccountVouchar.resx">
       <DependentUpon>AddAccountVouchar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\AccountMenu.resx">
@@ -163,7 +167,7 @@
     <EmbeddedResource Include="UserControls\SellsMenu.resx">
       <DependentUpon>SellsMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vouchars\SellsVouchar.resx">
+    <EmbeddedResource Include="Forms\SellsVouchar.resx">
       <DependentUpon>SellsVouchar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="databaseDataSet.xsc">
@@ -231,6 +235,12 @@
     <Content Include="database.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\archive-extract.png" />
+    <None Include="Resources\mail-mark-task.png" />
+    <None Include="Resources\mail-queue.png" />
+    <None Include="Resources\mail-replied.png" />
+    <None Include="Resources\mail-signature-unknown.png" />
+    <None Include="Resources\mail-signed-part.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

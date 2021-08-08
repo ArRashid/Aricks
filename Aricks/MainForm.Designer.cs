@@ -29,15 +29,17 @@ namespace Aricks
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.content_panel = new System.Windows.Forms.Panel();
             this.menu_panel = new System.Windows.Forms.Panel();
-            this.btn_main = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btn_Buy = new System.Windows.Forms.Button();
             this.btn_account = new System.Windows.Forms.Button();
+            this.btn_main = new System.Windows.Forms.Button();
             this.icon = new System.Windows.Forms.PictureBox();
+            this.btn_report = new System.Windows.Forms.Button();
             this.menu_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +76,7 @@ namespace Aricks
             // 
             this.menu_panel.BackColor = System.Drawing.Color.DarkGray;
             this.menu_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menu_panel.Controls.Add(this.btn_report);
             this.menu_panel.Controls.Add(this.button2);
             this.menu_panel.Controls.Add(this.btn_Buy);
             this.menu_panel.Controls.Add(this.btn_account);
@@ -84,22 +87,6 @@ namespace Aricks
             this.menu_panel.Name = "menu_panel";
             this.menu_panel.Size = new System.Drawing.Size(150, 404);
             this.menu_panel.TabIndex = 2;
-            // 
-            // btn_main
-            // 
-            this.btn_main.AutoSize = true;
-            this.btn_main.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_main.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_main.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_main.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_main.Location = new System.Drawing.Point(0, 50);
-            this.btn_main.MinimumSize = new System.Drawing.Size(0, 50);
-            this.btn_main.Name = "btn_main";
-            this.btn_main.Size = new System.Drawing.Size(150, 50);
-            this.btn_main.TabIndex = 2;
-            this.btn_main.Text = "Main";
-            this.btn_main.UseVisualStyleBackColor = false;
-            this.btn_main.Click += new System.EventHandler(this.btn_main_Click);
             // 
             // button2
             // 
@@ -159,6 +146,22 @@ namespace Aricks
             this.btn_account.UseVisualStyleBackColor = false;
             this.btn_account.Click += new System.EventHandler(this.btn_account_Click);
             // 
+            // btn_main
+            // 
+            this.btn_main.AutoSize = true;
+            this.btn_main.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_main.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_main.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_main.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_main.Location = new System.Drawing.Point(0, 50);
+            this.btn_main.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btn_main.Name = "btn_main";
+            this.btn_main.Size = new System.Drawing.Size(150, 50);
+            this.btn_main.TabIndex = 2;
+            this.btn_main.Text = "Main";
+            this.btn_main.UseVisualStyleBackColor = false;
+            this.btn_main.Click += new System.EventHandler(this.btn_main_Click);
+            // 
             // icon
             // 
             this.icon.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -168,6 +171,26 @@ namespace Aricks
             this.icon.Size = new System.Drawing.Size(150, 50);
             this.icon.TabIndex = 1;
             this.icon.TabStop = false;
+            // 
+            // btn_report
+            // 
+            this.btn_report.AutoSize = true;
+            this.btn_report.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_report.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_report.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_report.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_report.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
+            this.btn_report.Image = ((System.Drawing.Image)(resources.GetObject("btn_report.Image")));
+            this.btn_report.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_report.Location = new System.Drawing.Point(0, 262);
+            this.btn_report.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btn_report.Name = "btn_report";
+            this.btn_report.Size = new System.Drawing.Size(150, 54);
+            this.btn_report.TabIndex = 6;
+            this.btn_report.Text = "Reports";
+            this.btn_report.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_report.UseVisualStyleBackColor = false;
+            this.btn_report.Click += new System.EventHandler(this.btn_report_Click);
             // 
             // MainForm
             // 
@@ -202,6 +225,7 @@ namespace Aricks
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_Buy;
         private System.Windows.Forms.Button btn_account;
+        private System.Windows.Forms.Button btn_report;
     }
 }
 

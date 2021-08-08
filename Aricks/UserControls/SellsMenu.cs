@@ -39,5 +39,11 @@ namespace Aricks
             SellsVouchar f = new SellsVouchar();
             f.Show();
         }
+
+        private void btn_quite_Click_1(object sender, EventArgs e)
+        {
+            SellsMenu.Instance.SendToBack();
+            SellsMenu.Instance.Hide();
+        }
     }
 }

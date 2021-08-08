@@ -112,13 +112,31 @@ namespace Aricks
             }
             else
             {
-                content_panel.Controls.Add(AccountMenu.Instance);
+                content_panel.Controls.Add(MainMenu.Instance);
                 MainMenu.Instance.Dock = DockStyle.Fill;
                 MainMenu.Instance.Show();
                 MainMenu.Instance.BringToFront();
                
             }
             
+        }
+
+        private void btn_report_Click(object sender, EventArgs e)
+        {
+            if (indexofuc("ReportMenu") > 0)
+            {
+                ReportMenu.Instance.Dock = DockStyle.Fill;
+                ReportMenu.Instance.Show();
+                ReportMenu.Instance.BringToFront();
+            }
+            else
+            {
+                content_panel.Controls.Add(ReportMenu.Instance);
+                ReportMenu.Instance.Dock = DockStyle.Fill;
+                ReportMenu.Instance.Show();
+                ReportMenu.Instance.BringToFront();
+
+            }
         }
     }
 }
